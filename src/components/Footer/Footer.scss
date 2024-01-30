@@ -1,0 +1,96 @@
+.footer__container{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    background-color: var(--primaryColor);
+    color: var(--textColor);
+    padding: 2rem 0rem;
+
+    .footer__links__container{
+        display: flex;
+        justify-content: space-around;
+
+        .footer__logo{
+          cursor: pointer;
+        }
+
+        .footer__links{
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: .8rem;
+
+            li{
+                font: normal 400 .8rem/.8rem Roboto;
+                letter-spacing: .1rem;
+                text-wrap: balance;
+                width: 15vw;
+                cursor: pointer;
+            }
+        }
+
+        @media screen and (width<600px) {
+            display: grid;
+            grid-template-columns: 25vw auto auto auto;
+            grid-template-rows: 10vh auto auto;
+        }
+    }
+
+    .footer__socials{
+        display: flex;
+        padding: 2rem 4rem;
+        background-color: var(--secondaryColor);
+        justify-content: space-between;
+        align-items:center;
+
+        .footer__icons{
+          display: flex;
+          gap: 2rem;
+          align-items: center;
+          cursor: pointer;
+        }
+
+        .email__section{
+            display: flex;
+            align-items: center;
+            background-color: orange;
+
+            input{
+                padding: 1rem;
+                outline: none;
+                width: 21vw;
+                border: none;
+                @media screen and (width<600px) {
+                  width: 70vw;  
+                }
+            }
+
+            button{
+                outline: none;
+                border: none;
+                background-color: orange;
+                padding: .3rem .5rem;
+            }
+        }
+
+        @media screen and (width<600px) {
+            flex-direction: column;
+            gap: 1rem;
+            padding: 2rem 1rem;
+
+            input{
+                width: 70vw;
+            }
+        }
+    }
+
+    .footer__copyright{
+        text-align: center;
+        padding-top: .6rem;
+        font: normal 400 .8rem/.8rem Roboto;
+        letter-spacing: .1rem;
+    }
+    @media screen and (width<600px) {
+        gap: 4rem;
+    }
+}
