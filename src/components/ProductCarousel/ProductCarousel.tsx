@@ -10,7 +10,7 @@ const ProductCarousel = () => {
         {"img":"https://www.isayorganic.com/cdn/shop/files/BANNER_REF-17-17_1.jpg?v=1658765759"},
     ]
     const settings = {
-        dots: false,
+        dots: true,
         infinite: true,
         slidesToShow: 1,
         slidesToScroll: 1,
