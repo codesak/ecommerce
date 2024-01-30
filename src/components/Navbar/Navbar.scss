@@ -1,0 +1,24 @@
+.nav__container{
+    color:var(--textColor);
+
+    .nav__contact__details{
+        display: flex;
+        padding: 1rem 2rem;
+        background-color: var(--secondaryColor);
+        justify-content: flex-end;
+        gap: 2rem;
+        div{
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            cursor: pointer;
+
+            p{
+                font: normal 400 .8rem/.8rem Roboto;
+            }
+            @media screen and (width<600px) {
+                display: none;
+            }
+        }
+    }
+}

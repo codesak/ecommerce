@@ -1,8 +1,11 @@
-import React from 'react'
+import '../styles/Homepage.scss'
+import ProductCarousel from '../components/ProductCarousel/ProductCarousel'
 
 const Homepage = () => {
   return (
-    <div>Homepage</div>
+    <section className='homepage__container'>
+      <ProductCarousel/>
+    </section>
   )
 }
 

@@ -1,0 +1,34 @@
+.productCarousel__container{
+    .carousel__card{
+        .product__card{
+            width: 100vw;
+            height: 50vh;
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+}
+
+.slick-next{
+right: 0;
+left: 96%;
+z-index: 10;
+}
+.slick-next:before{
+    color: #e7c255!important;
+    font-size: 40px!important;
+}
+
+.slick-prev{
+right: 98%;
+left: 1%!important;
+z-index: 10;
+
+}
+.slick-prev:before{
+    color: #e7c255!important;
+    font-size: 40px!important;
+}
