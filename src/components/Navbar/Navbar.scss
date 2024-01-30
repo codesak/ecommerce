@@ -21,4 +21,38 @@
             }
         }
     }
+
+    .nav__category{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        padding: 2rem 0rem;
+        color: #999;
+
+        .category__title{
+            display: flex;
+            gap: 1rem;
+            align-items: center;
+            cursor: pointer;
+            padding: 0rem 4rem;
+            white-space: nowrap;
+            &:hover{
+                .icon__up{
+                   display: none;
+                }
+                .icon__down{
+                    display: block!important;
+                }
+                .multi__title{
+                    display: flex!important;
+                }
+            }
+            .icon__down{
+                display: none;
+            }
+
+            
+            
+        }
+    }
 }

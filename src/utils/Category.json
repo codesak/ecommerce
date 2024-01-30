@@ -1,0 +1,51 @@
+[
+  {
+    "title": "Fruits & Vegetables",
+    "category": [
+      {
+        "title": "Fruits",
+        "category": [
+          {"title":"Apple"},
+          {"title":"Banana"},
+          {"title":"Orange"},
+          {"title":"Grapes"},
+          {"title":"Watermelon"},
+          {"title":"Strawberry"},
+          {"title":"Mango"},
+          {"title":"Pineapple"},
+          {"title":"Kiwi"},
+          {"title":"Peach"},
+          {"title":"Cherry"},
+          {"title":"Blueberry"},
+          {"title":"Pear"},
+          {"title":"Plum"},
+          {"title":"Raspberry"}
+        ]
+      },
+      {
+        "title": "Vegetables",
+        "category": [
+          {"title":"Carrot"},
+          {"title":"Broccoli"},
+          {"title":"Spinach"},
+          {"title":"Tomato"},
+          {"title":"Cucumber"},
+          {"title":"Bell Pepper"},
+          {"title":"Zucchini"},
+          {"title":"Eggplant"},
+          {"title":"Sweet Potato"},
+          {"title":"Cabbage"},
+          {"title":"Cauliflower"},
+          {"title":"Brussels Sprouts"},
+          {"title":"Onion"},
+          {"title":"Garlic"},
+          {"title":"Kale"}
+        ]
+      }
+    ]
+  },
+  { "title": "Whole Foods" },
+  { "title": "Cooking Essentials" },
+  { "title": "Beverages" },
+  { "title": "Gifting" }
+]
